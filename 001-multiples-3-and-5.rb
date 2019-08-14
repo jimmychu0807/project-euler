@@ -3,5 +3,4 @@ def calc(n)
   selected.reduce(0) { |mem, el| mem + el }
 end
 
-puts calc(10);
-puts calc(1000);
+p calc(1000);
